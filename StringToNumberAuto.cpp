@@ -42,6 +42,7 @@ cout << "The Extracted Number is: " << total << endl;
 
 
  //Using Substract Function 
-
+total = stoi(str.substr(StartPosition, EndPosition - StartPosition + 1)); // string_variable_name.substr(start_position, length_of_substring);
+cout << "The Extracted Number is: " << total << endl;
     return 0;
 }
